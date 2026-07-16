@@ -1,10 +1,15 @@
-import { CakeSlice, Instagram } from "lucide-react";
+import { CakeSlice, Instagram, MessageCircle } from "lucide-react";
 
 const socials = [
   {
     label: "Instagram",
-    href: "https://www.instagram.com/doceriadonalu/",
+    href: "https://www.instagram.com/doceriadonaluoficial/",
     Icon: Instagram,
+  },
+  {
+    label: "WhatsApp",
+    href: "https://api.whatsapp.com/send/?phone=5511964862693&text&type=phone_number&app_absent=0&utm_source=ig",
+    Icon: MessageCircle,
   },
 ];
 
